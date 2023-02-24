@@ -3,16 +3,19 @@ body {
     background-size: 1920px;
 }
 
-h1{
+h1 {
     padding-top: 200px;
-    padding-left: 50px;
+    margin-left: 50px;
     font-size: 150pt;
     color: #BFF;
-    line-height: 50pt;
-    font-family: "Work-Sans";
-/*    background: #FFDDDD */
+    line-height:25pt;
+    font-family: "Work+Sans", sans-serif;
+    /*background: #FFDDDD */
 }
 
-.resume {
-    
+.resumeNav {
+    position: absolute;
+    top: 495px;
+    margin-left: 250px;
+    /*background: #0FDDDD*/
 }
