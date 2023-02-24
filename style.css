@@ -11,7 +11,7 @@ h1 {
     line-height:25pt;
     font-family: "Work+Sans", sans-serif;
     letter-spacing: -2px;
-    /*background: #FFDDDD */
+/*    background: #FFDDDD */
 }
 
 .resumeNav {
@@ -21,15 +21,6 @@ h1 {
     /*background: #0FDDDD*/
 }
 
-.institution {
-    font-size: 45pt;
-    line-height: 38pt;
-}
-
-.degree {
-    margin-left: 250px;
-}
-
-.gradDate {
-    margin-left: 250px;
+#educationList {
+    list-style: none;
 }
