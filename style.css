@@ -17,38 +17,53 @@ h1 {
 
 .resumeNav {
     position: absolute;
-    top: 350px;
+    top: 325px;
     margin-left: 450px;
-    /*background: #0FDDDD*/
+    justify-content: center;
+    align-items: center;
 }
 
 .noNum {
     list-style: none;
 }
 
-.institution {
+.institution, .company {
     padding-top: 20px;
     color: #FFE3F0;
     font-style: italic;
     font-weight: bold;
     font-size: 26pt;
     line-height: 20pt;
+    position: relative;
+    top: -380px;
+    left: 40px;
 }
 
-.degree {
-    color: #E384FF;
+.degree, .title {
+    color: white;
 }
 
-.gradDate {
-    color: #FFA3FD;
+.gradDate, .dates {
+    color: white;
     text-align: right;
 }
 
 .educationTable {
     width: 500px;
     position: relative;
-    left: 40px;
+    left: 80px;
+    top: -380px;
     font-weight: normal;
     font-size: 18pt;
     line-height: 15pt;
+}
+
+#eduBG{
+    background-image: url(./images/educationbg.jpg);
+    background-size: 700px;
+}
+
+.description {
+    color: white;
+    font-size: 14pt;
 }
