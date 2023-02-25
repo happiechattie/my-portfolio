@@ -21,6 +21,6 @@ h1 {
     /*background: #0FDDDD*/
 }
 
-#educationList {
+.noNum {
     list-style: none;
 }
