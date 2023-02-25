@@ -1,5 +1,4 @@
-const bar = document.getElementsByClassName("resumeNav")[0];
-console.log(bar);
+const bar = document.getElementsByClassName("bar")[0];
 let i = 0;
 
 const colors = ["#FFA3FD", "#E384FF", "#865DFF", "#191825", null]

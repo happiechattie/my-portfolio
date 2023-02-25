@@ -17,10 +17,17 @@ h1 {
 
 .resumeNav {
     position: absolute;
-    top: 325px;
+    top: 345px;
     margin-left: 450px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.bar {
+    position: absolute;
+    top: 362px;
+    margin-left: 450px;
 }
 
 .noNum {
@@ -29,10 +36,10 @@ h1 {
 
 .institution, .company {
     padding-top: 20px;
-    color: #FFE3F0;
+    color: #FFF;
     font-style: italic;
     font-weight: bold;
-    font-size: 26pt;
+    font-size: 15pt;
     line-height: 20pt;
     position: relative;
     top: -380px;
@@ -41,11 +48,15 @@ h1 {
 
 .degree, .title {
     color: white;
+    font-size: 12pt;
+    font-style: normal;
 }
 
 .gradDate, .dates {
     color: white;
     text-align: right;
+    font-size: 10pt;
+    font-style: normal;
 }
 
 .educationTable {
@@ -53,6 +64,13 @@ h1 {
     position: relative;
     left: 80px;
     top: -380px;
+    font-weight: normal;
+    font-size: 18pt;
+    line-height: 15pt;
+}
+
+.experienceTitleDate {
+    width: 500px;
     font-weight: normal;
     font-size: 18pt;
     line-height: 15pt;
@@ -66,4 +84,6 @@ h1 {
 .description {
     color: white;
     font-size: 14pt;
+    width: 500px;
+    font-style: normal;
 }
