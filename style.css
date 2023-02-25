@@ -27,10 +27,12 @@ h1 {
 }
 
 .institution {
-    color: #B99FFF;
+    padding-top: 20px;
+    color: #FFE3F0;
     font-style: italic;
     font-weight: bold;
     font-size: 26pt;
+    line-height: 20pt;
 }
 
 .degree {
@@ -48,4 +50,5 @@ h1 {
     left: 40px;
     font-weight: normal;
     font-size: 18pt;
+    line-height: 15pt;
 }
