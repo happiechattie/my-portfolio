@@ -1,15 +1,16 @@
 body {
     background: url(./images/jelly.jpg);
     background-size: 1920px;
+    font-family: "Work+Sans", sans-serif;
+    margin-left: 50px;
 }
 
 h1 {
     padding-top: 30px;
-    margin-left: 50px;
+    
     font-size: 150pt;
     color: #BFF;
     line-height:25pt;
-    font-family: "Work+Sans", sans-serif;
     letter-spacing: -2px;
 /*    background: #FFDDDD */
 }
@@ -25,3 +26,26 @@ h1 {
     list-style: none;
 }
 
+.institution {
+    color: #B99FFF;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26pt;
+}
+
+.degree {
+    color: #E384FF;
+}
+
+.gradDate {
+    color: #FFA3FD;
+    text-align: right;
+}
+
+.educationTable {
+    width: 500px;
+    position: relative;
+    left: 40px;
+    font-weight: normal;
+    font-size: 18pt;
+}
