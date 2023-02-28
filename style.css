@@ -1,33 +1,48 @@
 body {
-    background: url(./images/jelly.jpg);
-    background-size: 1920px;
-    font-family: "Work+Sans", sans-serif;
+    background: url(./images/bg.jpg);
+    background-size: 2000px;
+    font-family: "Exo+2", sans-serif;
     margin-left: 50px;
 }
 
 h1 {
-    padding-top: 30px;
-    
     font-size: 150pt;
-    color: #BFF;
     line-height:25pt;
     letter-spacing: -2px;
 /*    background: #FFDDDD */
 }
 
+.header1 {
+    color: "#576880";
+/*    background: #FFDDDD */
+}
+
+.header2 {
+    color: "#576880";
+/*    background: #FFDDDD */
+}
+
+.header3 {
+    color: "#576880";
+/*    background: #FFDDDD */
+}
+
+.header4 {
+    color: "#FFFFFF";
+/*    background: #FFDDDD */
+}
+
 .resumeNav {
     position: absolute;
-    top: 345px;
+    top: 320px;
     margin-left: 450px;
     text-align: center;
     vertical-align: middle;
     width: 25%;
 }
 
-.bar {
-    position: absolute;
-    top: 362px;
-    margin-left: 450px;
+#homelink, #educationlink, #experiencelink {
+    color: #FFF;
 }
 
 .noNum {
@@ -38,7 +53,7 @@ h1 {
     padding-top: 20px;
     color: #FFF;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 15pt;
     line-height: 20pt;
     position: relative;
@@ -46,21 +61,27 @@ h1 {
     left: 40px;
 }
 
+#workList .company {
+    font-weight: 100;
+}
+
 .degree, .title {
     color: white;
     font-size: 12pt;
     font-style: normal;
+    font-weight: 100;
 }
 
 .gradDate, .dates {
     color: white;
     text-align: right;
-    font-size: 10pt;
+    font-size: 11pt;
     font-style: normal;
+    font-weight: 100;
 }
 
 .educationTable {
-    width: 500px;
+    width: 350px;
     position: relative;
     left: 80px;
     top: -380px;
@@ -70,20 +91,46 @@ h1 {
 }
 
 .experienceTitleDate {
-    width: 500px;
-    font-weight: normal;
+    width: 850px;
+    font-weight: 100;
     font-size: 18pt;
     line-height: 15pt;
 }
 
 #eduBG{
+    position: absolute;
+    top: 400px;
     background-image: url(./images/educationbg.jpg);
     background-size: 700px;
+    opacity: 50%;
+}
+
+#workBG {
+    position: absolute;
+    top: 400px;
+    background-image: url(./images/educationbg.jpg);
+    background-size: 1000px;
+    opacity: 50%;
 }
 
 .description {
     color: white;
-    font-size: 14pt;
-    width: 500px;
+    font-size: 12pt;
+    width: 850px;
     font-style: normal;
+    font-weight: lighter;
+}
+
+#workList {
+    position: absolute;
+    top: 800px;
+    left: 45px;
+    font-family: "Exo+2", sans-serif;
+}
+
+#educationList {
+    position: absolute;
+    top: 800px;
+    left: 45px;
+    font-family: "Exo+2", sans-serif;
 }
