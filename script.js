@@ -28,6 +28,9 @@ function rotateBG() {
 }
 
 document.addEventListener("keydown", function(event){
-        rotateColors();
+    console.log(event);
+    if (event.key === 'ArrowRight'){
         rotateBG();
-    })
+    } else {
+        return;
+    }})
